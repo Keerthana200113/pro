@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6aada44baa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Keerthana name logo image.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Experience</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Seeking a Developer Role</p>
+                <h1>Hi, I'm <span>Keerthana</span><br>from chennai</h1>
+            </div>
+        </div>
+    </div>
+    <!------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/keerttuh.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm confident that I'm a good fit for this role because my skills and passion align with the job
+                        requirements. Throughout my academic journey and internship experiences, I've developed a strong
+                        foundation in HTML, CSS, JavaScript etcbinternship has provided me, which I believe will serve
+                        me well in this position.</p>
+                    <div class="tab-titles">
+                        <P class="tab-links  active-link" onclick="opentab('skills')"> Skills</P>
+                        <P class="tab-links" onclick="opentab('experience')"> Experience</P>
+                        <P class="tab-links" onclick="opentab('education')"> Education</P>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JavaScript</span><br>Strong Work Proficiany</li>
+                            <li><span>REACT JS</span><br>Strong Work Proficiany</li>
+                            <li><span>PHYTHON</span><br>Strong Work Proficiany</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Customer Service</span><br>Strong Work Proficiany</li>
+                            <li><span>Process Associate</span><br>Strong Work Proficiany</li>
+                            <li><span>Seeking web developer role</span><br>awaiting for continue</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>SSLC| 10-nth</span><br>with 67.4%</li>
+                            <li><span>HSC|12-lth</span><br>55%</li> 
+                            <li><span>B.SC Computer Science</span><br>77.3%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------about------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h2> Customr services </h2>
+                    <p>I utilize strong communication and problem-solving skills to address customer concerns, providing clear explanations and instructions. I also escalate complex issues to senior team members, ensuring timely and effective resolution. Additionally, I identify opportunities to improve customer satisfaction, making recommendations to enhance products and services, while being efficient, professional, adaptable, flexible, solution-focused, collaborative, analytical, technical, quality-focused,and improvement-oriented.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2> Process Associate</h2>
+                    <p>• Ability to multitask and maintain accuracy in high pressure environment. • Being a
+                        Quality Analyst and Subject Matter Expert for the Process. • Supported KYC processes for
+                        prospective and existing student. • Developed and updated spreadsheets and databases
+                        to track analyze and report on performance and tableau data • Client query and update 
+                        handling, timely escalating the problem or faults through emails. • Identied and resolved process issues to encourage smoother procedures.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Seeking a entry level Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam illum vero amet tenetur expedita, quod fugit. Dignissimos, maiores ratione explicabo minima esse similique, aspernatur soluta deleniti corporis ad consequatur modi nihil harum aut dicta quaerat voluptate sit possimus. Accusamus tempora eligendi repudiandae cupiditate adipisci at dicta optio eum nisi blanditiis, reiciendis ex modi quidem facere tenetur earum voluptate, sed nam voluptatibus dignissimos mollitia itaque aliquid.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!------------Portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>Advertisement</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, accusamus quos? Voluptates, nam. Tenetur, ducimus.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>Perfumy website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam necessitatibus vel eos incidunt possimus minima.</p>
+                        <a href="https://keerthana200113.github.io/itsperfume.git.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>My Portfolio</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste molestiae, impedit in voluptate quam blanditiis!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------------Contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> keerthana131201@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href="https//instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https//fa-linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https//facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https//fa-twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="images/Resumee.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © keerthana.made with by...<i class="fa-solid fa-heart"></i></p>
+    </div>
+    </div>
+    
+    <script>
+        
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+ 
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        } 
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html> 
